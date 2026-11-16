@@ -1,0 +1,25 @@
+/* THE MASTER'S - screen-size adjustments (tablet and desktop). Base styles are for phones. */
+@media (min-width:600px){
+  .fgrid{grid-template-columns:repeat(3,1fr)}
+  .grid{grid-template-columns:repeat(3,1fr)}
+  .deals-grid{grid-template-columns:repeat(2,1fr)}
+  .cat-head img{width:140px;height:140px}
+  .cgrid{grid-template-columns:repeat(2,1fr)}
+  .fcols{grid-template-columns:repeat(2,1fr)}
+}
+@media (min-width:820px){
+  .nav-toggle{display:none}
+  .nav{display:flex;position:static;flex-direction:row;gap:.2rem;padding:0;border:0;background:none}
+  .nav a{border:0;padding:.5rem .8rem;border-radius:8px}
+  .split{grid-template-columns:1fr 1fr}
+  .order-layout{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;align-items:start}
+  .fcols{grid-template-columns:2fr 1fr 1fr 1.4fr}
+  .chips{justify-content:center}
+}
+@media (min-width:1024px){
+  .fgrid{grid-template-columns:repeat(5,1fr)}
+  .grid{grid-template-columns:repeat(4,1fr)}
+  .deals-grid{grid-template-columns:repeat(3,1fr)}
+  .cat-head img{width:180px;height:135px}
+  .section{padding:3.5rem 0}
+}
